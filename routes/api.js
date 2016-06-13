@@ -39,6 +39,25 @@ router.post('/:resource', function(req, res, next){
 	var resource = req.params.resource
 	var controller = controllers[resource]
 
+	if (resource == 'inquiry'){ //submit inquiry
+
+		var params = req.body
+		var sendgrid = require('sendgrid')(process.env.SENDGRID_USERNAME, process.env.SENDGRID_PASSWORD);
+
+		var replyMsg = params['message'] + ". This came from " + params['name'] + ", " + params["email"] + ", for " + params["service"]
+
+
+		sendgrid.send({
+			to: 'karodriguez8@gmail.com',
+			from: 'karodriguez8@gmail.com',
+			subject: 'You got an Inquiry!',
+			text: replyMsg
+		}, function(err){
+
+		})
+
+	}
+
 	if (controller == null){
 		res.json({
 			confirmation: 'Fail',
