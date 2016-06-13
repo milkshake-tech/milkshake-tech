@@ -44,8 +44,8 @@
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                     <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/milkshake.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/milkshake@2x.png" alt="Canvas Logo"></a>
+                        <a href="#" data-href="#section-header" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/milkshake.png" alt="Canvas Logo"></a>
+                        <a href="#" data-href="#section-header" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/milkshake@2x.png" alt="Canvas Logo"></a>
                     </div>
 
                     <!-- Primary Navigation
@@ -53,9 +53,9 @@
                     <nav id="primary-menu">
 
                         <ul class="one-page-menu">
-                            <li class="current"><a href="#" data-href="#section-home"><div>Home</div></a></li>
-  
-                            <li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
+                            <li class="current"><a href="#" data-href="#section-header"><div>Home</div></a></li>
+                             <li><a href="#" data-href="#section-team"><div>About Us</div></a></li>
+                            <li><a href="#" data-href="#template-contactform"><div>Contact</div></a></li>
                            
                         </ul>
 
@@ -73,16 +73,21 @@
 
             <div class="content-wrap">
 
-                <div class="container clearfix">
+                <div class="container clearfix;">
 
-                    <div id="section-home" class="heading-block title-center nobottomborder page-section">
-                        <h1>Milkshake Media</h1>
-                        <span>iOS, Node, and React</span>
+                        <div class="heading-block center" id="section-header">
+                            <h2>Milkshake Media</h2>
+                            <span>iOS, Node, and React</span>
+                        </div>
+
+                        <div style="position: relative; margin-bottom: -60px;" data-height-lg="415" data-height-md="342" data-height-sm="262" data-height-xs="160" data-height-xxs="102">
+                            <img src="/images/services/chrome.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" alt="Chrome"/>
+                            <img src="/images/services/ipad3.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="300" alt="iPad"/>
+                        </div>
                     </div>
-                    
-                    <div class="clear"></div>
+                </div>
 
-                    <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+            <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
 
             <div class="content-wrap">
 
@@ -151,14 +156,88 @@
 
                 </div>
 
-            </div>    
+            </div>  
+
+      
+            <div class="heading-block center" id="section-team">
+                        <h2>Our Team</h2>
+                        <span>We're a small team of fullstack developers specialized in iOS and web development.</span>
+            </div>
+
+                    <div class="col_one_third">
+
+                        <div class="team" >
+                            <div class="team-image">
+                                <img src="images/team/katrina.png" alt="Katrina Rodriguez">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title"><h4>Katrina</h4><span>Fullstack Developer</span></div>
+                                <a href="http://www.github.com/katrinar" class="social-icon inline-block si-small si-light si-rounded si-github">
+                                    <i class="icon-github"></i>
+                                    <i class="icon-github"></i>
+                                </a>
+                                <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                                    <i class="icon-twitter"></i>
+                                    <i class="icon-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                                    <i class="icon-linkedin"></i>
+                                    <i class="icon-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col_one_third">
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="images/team/milkshake-sm.png" alt="Brian Correa">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title"><h4>Milshake</h4><span>Muse</span></div>
+
+                                <a href="#" class="social-icon inline-block si-small si-light si-rounded si-instagram">
+                                    <i class="icon-instagram"></i>
+                                    <i class="icon-instagram"></i>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col_one_third col_last">
+
+                        <div class="team">
+                            <div class="team-image">
+                                <img src="images/team/brian.png" alt="Milkshake">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title"><h4>Brian</h4><span>Fullstack Developer</span></div>
+                                <a href="http://www.github.com/correa-brian" class="social-icon inline-block si-small si-light si-rounded si-github">
+                                    <i class="icon-github"></i>
+                                    <i class="icon-github"></i>
+                                </a>
+                                <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                                    <i class="icon-twitter"></i>
+                                    <i class="icon-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                                    <i class="icon-linkedin"></i>
+                                    <i class="icon-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
 
                     <div id="section-contact" class="heading-block title-center page-section">
-                        <h2>Get in Touch with us</h2>
+                        <h2>Get in Touch</h2>
                         <span>Still have questions? Contact us and we'll get back to you in a jiffy.</span>
                     </div>    
-
-
 
                     <!-- Contact Form
                     ============================================= -->
@@ -257,8 +336,8 @@
                                 zoom: 14,
                                 markers: [
                                     {
-                                        address: "Melbourne, Australia",
-                                        html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+                                        address: "79 Madison, New York City, New York, USA",
+                                        html: '<div style="width: 300px;"></div>',
                                         icon: {
                                             image: "images/icons/map-icon-red.png",
                                             iconsize: [32, 39],
@@ -348,7 +427,7 @@
                                 <i class="icon-gplus"></i>
                             </a>
 
-                        <i class="icon-envelope2"></i> info@milkshake.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> 703-362-7371
+                        <i class="icon-envelope2"></i> info@milkshake.tech <span class="middot">&middot;</span> <i class="icon-headphones"></i> 703-362-7371
                     </div>
 
                 </div>
