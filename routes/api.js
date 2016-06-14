@@ -47,7 +47,7 @@ router.post('/:resource', function(req, res, next){
 		var replyMsg = params['message'] + ". This came from " + params['name'] + ", " + params["email"] + ", for " + params["service"]
 
 		sendgrid.send({
-			to: 'karodriguez8@gmail.com' + 'brian.correa@gmail.com',
+			to: 'karodriguez8@gmail.com',
 			from: 'karodriguez8@gmail.com', 
 			subject: 'You got an Inquiry!',
 			text: replyMsg
