@@ -34,7 +34,7 @@
 
     </script>
 
-	<title>Milkshake Media | Dev Shop</title>
+	<title>Milkshake Tech | Dev Shop</title>
 
   </head>
   <body>
@@ -54,8 +54,8 @@
                     <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                     <div id="logo">
-                        <a href="#" data-href="#section-header" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="/images/milkshake-logo.png" alt="Canvas Logo"></a>
-                        <a href="#" data-href="#section-header" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="/images/milkshake-logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="#" data-href="#section-header" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="/images/milkshake-tech.png" alt="Canvas Logo"></a>
+                        <a href="#" data-href="#section-header" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="/images/milkshake-tech@2x.png" alt="Canvas Logo"></a>
                     </div>
 
                     <!-- Primary Navigation
@@ -86,7 +86,7 @@
                 <div class="container clearfix;">
 
                     <div class="heading-block center" id="section-header">
-                        <h2>Milkshake Media</h2>
+                        <h2>Milkshake Tech</h2>
                         <span>Fullstack iOS and Web Development</span>
                     </div>
 
