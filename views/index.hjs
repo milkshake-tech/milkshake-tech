@@ -104,6 +104,7 @@
             <div class="container clearfix">
                 <div class="heading-block center" id="section-team">
                     <h2>What We Do</h2>
+                     <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
                 </div>
 
                 <div class="col_full bottommargin-lg common-height">
@@ -169,7 +170,7 @@
       
             <div class="heading-block center" id="section-team">
                         <h2>About Us</h2>
-                        <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
+                       
             </div>
 
                 <div class="col_one_third">
