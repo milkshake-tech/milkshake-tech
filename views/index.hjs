@@ -65,6 +65,7 @@
 
                         <ul class="one-page-menu">
                             <li class="current"><a href="#" data-href="#section-header"><div>Home</div></a></li>
+                            <li><a href="#" data-href="#section-services"><div>Services</div></a></li>
                              <li><a href="#" data-href="#section-team"><div>About Us</div></a></li>
                             <li><a href="#" data-href="#template-contactform"><div>Contact</div></a></li>
                            
@@ -102,7 +103,7 @@
 
          <div class="content-wrap">    
             <div class="container clearfix">
-                <div class="heading-block center" id="section-team">
+                <div class="heading-block center" id="section-services">
                     <h2>What We Do</h2>
                      <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
                 </div>
