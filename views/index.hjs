@@ -34,7 +34,7 @@
 
     </script>
 
-	<title>Milkshake Media | iOS, Node, React</title>
+	<title>Milkshake Media | Dev Shop</title>
 
   </head>
   <body>
@@ -85,55 +85,54 @@
 
                 <div class="container clearfix;">
 
-                        <div class="heading-block center" id="section-header">
-                            <h2>Milkshake Media</h2>
-                            <span>iOS, Node, and React</span>
-                        </div>
+                    <div class="heading-block center" id="section-header">
+                        <h2>Milkshake Media</h2>
+                        <span>Fullstack iOS and Web Development</span>
+                    </div>
 
-                        <div style="position: relative; margin-bottom: -60px;" data-height-lg="415" data-height-md="342" data-height-sm="262" data-height-xs="160" data-height-xxs="102">
-                            <img src="/images/services/chrome.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" alt="Chrome"/>
-                            <img src="/images/services/ipad3.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="300" alt="iPad"/>
-                        </div>
+                    <div style="position: relative; margin-bottom: -60px;" data-height-lg="415" data-height-md="342" data-height-sm="262" data-height-xs="160" data-height-xxs="102">
+                    <img src="/images/services/chrome.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" alt="Chrome"/>
+                    <img src="/images/services/ipad4.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="300" alt="iPad"/>
                     </div>
                 </div>
+            </div>
 
-            <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+            <div class="clear"></div>
 
-            <div class="content-wrap">
+         <div class="content-wrap">    
+            <div class="container clearfix">
+                <div class="heading-block center" id="section-team">
+                    <h2>What We Do</h2>
+                </div>
 
-                <div class="container clearfix">
+                <div class="col_full bottommargin-lg common-height">
 
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-effect">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-beaker i-alt"></i></a>
-                            </div>
-                            <h3>Fullstack Development</h3>
-                            <p>Get the whole package with us. We build fullstack web and iPhone apps on industry-leading tech stacks.</p>
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">Custom API</h3>
+                            <p style="line-height: 1.8;">Get the whole package with us. We can build a custom API and the front-end for your projects.</p>
+                          <!--   <a href="#" class="button button-border button-light button-rounded button-reveal tright uppercase nomargin"><i class="icon-angle-right"></i><span>Read More</span></a> -->
+                            <i class="icon-bulb bgicon"></i>
                         </div>
                     </div>
 
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-effect">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-eye i-alt"></i></a>
-                            </div>
-                            <h3>iOS Apps</h3>
-                            <p>Need an MVP? We'll build your iPhone app on a Node backend.</p>
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">iOS Apps</h3>
+                            <p style="line-height: 1.8;">Need an MVP for your business? We'll build your iPhone app and take care of the backend too.</p>
+                           <!--  <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
+                            <i class="icon-cog bgicon"></i>
                         </div>
                     </div>
 
-                    <div class="col_one_third col_last">
-                        <div class="feature-box fbox-effect">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-screen i-alt"></i></a>
-                            </div>
-                            <h3>Web Development</h3>
-                            <p>Looking for a website? We got it covered - building fullstack web applications on Node and React.</p>
+                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
+                        <div>
+                            <h3 class="uppercase" style="font-weight: 600;">Web Development</h3>
+                            <p style="line-height: 1.8;">Looking for a website? We got it covered - building fullstack web applications on Node and React.</p>
+                            <!-- <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
+                            <i class="icon-thumbs-up bgicon"></i>
                         </div>
                     </div>
-
-                    <div class="clear"></div>
 
                     <div class="clear"></div><div class="line"></div>
 
@@ -165,39 +164,39 @@
                     </script>
 
                 </div>
-
-            </div>  
-
+            </div>
       
             <div class="heading-block center" id="section-team">
-                        <h2>Our Team</h2>
-                        <span>We're a small team of fullstack developers specialized in iOS and web development.</span>
+                        <h2>About Us</h2>
+                        <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
             </div>
 
-                    <div class="col_one_third">
+                <div class="col_one_third">
 
-                        <div class="team" >
-                            <div class="team-image">
-                                <img src="/images/team/katrina.png" alt="Katrina Rodriguez">
-                            </div>
-                            <div class="team-desc">
-                                <div class="team-title"><h4>Katrina</h4><span>Fullstack Developer</span></div>
-                                <a href="http://www.github.com/katrinar" class="social-icon inline-block si-small si-light si-rounded si-github">
-                                    <i class="icon-github"></i>
-                                    <i class="icon-github"></i>
-                                </a>
-                                <a href="https://twitter.com/karodriguez8" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                    <i class="icon-twitter"></i>
-                                    <i class="icon-twitter"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/katrinarodriguez" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                                    <i class="icon-linkedin"></i>
-                                    <i class="icon-linkedin"></i>
-                                </a>
-                            </div>
+                    <div class="team" >
+                        <div class="team-image">
+                            <img src="/images/team/katrina.png" alt="Katrina Rodriguez">
                         </div>
 
+                        <div class="team-desc">
+                            <div class="team-title"><h4>Katrina</h4><span>Fullstack Developer</span></div>
+                                <p>Former Associate at Oxeon Partners.  Author of Velocity360 tutorials.  Passionate about healthcare technology.</p>
+                            <a href="http://www.github.com/katrinar" class="social-icon inline-block si-small si-light si-rounded si-github">
+                                <i class="icon-github"></i>
+                                <i class="icon-github"></i>
+                            </a>
+                            <a href="https://twitter.com/karodriguez8" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/katrinarodriguez" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                                <i class="icon-linkedin"></i>
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </div>
                     </div>
+
+                </div>
 
                     <div class="col_one_third">
 
@@ -230,6 +229,7 @@
                             </div>
                             <div class="team-desc">
                                 <div class="team-title"><h4>Brian</h4><span>Fullstack Developer</span></div>
+                                <p>Ex-JP Morgan Associate.  Former advisor at Codecademy.  Talk to me about sports and politics.</p>
                                 <a href="http://www.github.com/correa-brian" class="social-icon inline-block si-small si-light si-rounded si-github">
                                     <i class="icon-github"></i>
                                     <i class="icon-github"></i>
