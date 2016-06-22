@@ -111,7 +111,7 @@
                     <div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
                         <div>
                             <h3 class="uppercase" style="font-weight: 600;">Custom API</h3>
-                            <p style="line-height: 1.8;">Get the whole package with us. We can build a custom API and the front-end for your projects.</p>
+                            <p style="line-height: 1.8;">Get the whole package with us.  We can build a custom API and the front-end for your projects.</p>
                           <!--   <a href="#" class="button button-border button-light button-rounded button-reveal tright uppercase nomargin"><i class="icon-angle-right"></i><span>Read More</span></a> -->
                             <i class="icon-bulb bgicon"></i>
                         </div>
@@ -120,7 +120,7 @@
                     <div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
                         <div>
                             <h3 class="uppercase" style="font-weight: 600;">iOS Apps</h3>
-                            <p style="line-height: 1.8;">Need an MVP for your business? We'll build your iPhone app and take care of the backend too.</p>
+                            <p style="line-height: 1.8;">Need an MVP for your business?  We'll build your iPhone app and take care of the backend too.</p>
                            <!--  <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
                             <i class="icon-cog bgicon"></i>
                         </div>
@@ -129,7 +129,7 @@
                     <div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
                         <div>
                             <h3 class="uppercase" style="font-weight: 600;">Web Development</h3>
-                            <p style="line-height: 1.8;">Looking for a website? We got it covered - building fullstack web applications on Node and React.</p>
+                            <p style="line-height: 1.8;">Looking for a website?  We got it covered - building web applications with full functionality on Node and React.</p>
                             <!-- <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
                             <i class="icon-thumbs-up bgicon"></i>
                         </div>
@@ -207,6 +207,7 @@
                             </div>
                             <div class="team-desc">
                                 <div class="team-title"><h4>Milkshake</h4><span>Muse</span></div>
+                                 <p>Talk to me about bones.</p>
 
                                 <a href="https://www.instagram.com/milkshakenyc/" class="social-icon inline-block si-small si-light si-rounded si-instagram">
                                     <i class="icon-instagram"></i>
@@ -385,7 +386,7 @@
                                 <div class="fbox-icon">
                                     <a href="https://www.google.com/maps/place/WeWork/@40.7440708,-73.9874109,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a7b9d4262d:0x623c51a553ee6303!8m2!3d40.7440668!4d-73.9852222"><i class="icon-map-marker2"></i></a>
                                 </div>
-                                <h3>Our Headquarters<span class="subtitle">New York City</span></h3>
+                                <h3>Our Headquarters<span class="subtitle">79 Madison, NYC</span></h3>
                             </div>
                         </div>
 
