@@ -32,7 +32,6 @@
 
       ga('create', 'UA-45627344-2', 'auto');
       ga('send', 'pageview');
-
     </script>
 
 	<title>Milkshake Tech | Dev Shop</title>
@@ -101,78 +100,74 @@
 
             <div class="clear"></div>
 
-         <div class="content-wrap">    
-            <div class="container clearfix">
-                <div class="heading-block center" id="section-services">
-                    <h2>What We Do</h2>
-                     <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
-                </div>
-
-                <div class="col_full bottommargin-lg common-height">
-
-                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
-                        <div>
-                            <h3 class="uppercase" style="font-weight: 600;">Custom API</h3>
-                            <p style="line-height: 1.8;">Get the whole package with us.  We can build a custom API and the front-end for your projects.</p>
-                          <!--   <a href="#" class="button button-border button-light button-rounded button-reveal tright uppercase nomargin"><i class="icon-angle-right"></i><span>Read More</span></a> -->
-                            <i class="icon-bulb bgicon"></i>
-                        </div>
+            <div class="content-wrap">    
+                <div class="container clearfix">
+                    <div class="heading-block center" id="section-services">
+                        <h2>What We Do</h2>
+                        <span>We specialize in fullstack iOS and web development. Whether you're looking to build an API, update your product's features, or need an MVP - we've got you covered. </span>
                     </div>
 
-                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
-                        <div>
-                            <h3 class="uppercase" style="font-weight: 600;">iOS Apps</h3>
-                            <p style="line-height: 1.8;">Need an MVP for your business?  We'll build your iPhone app and take care of the backend too.</p>
-                           <!--  <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
-                            <i class="icon-cog bgicon"></i>
+                    <div class="col_full bottommargin-lg common-height">
+
+                        <div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
+                            <div>
+                                <h3 class="uppercase" style="font-weight: 600;">Custom API</h3>
+                                <p style="line-height: 1.8;">Get the whole package with us.  We can build a custom API and the front-end for your projects.</p>
+                                <i class="icon-bulb bgicon"></i>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
-                        <div>
-                            <h3 class="uppercase" style="font-weight: 600;">Web Development</h3>
-                            <p style="line-height: 1.8;">Looking for a website?  We got it covered - building web applications with full functionality on Node and React.</p>
-                            <!-- <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a> -->
-                            <i class="icon-thumbs-up bgicon"></i>
+                        <div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
+                            <div>
+                                <h3 class="uppercase" style="font-weight: 600;">iOS Apps</h3>
+                                <p style="line-height: 1.8;">Need an MVP for your business?  We'll build your iPhone app and take care of the backend too.</p>
+                                <i class="icon-cog bgicon"></i>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="clear"></div><div class="line"></div>
+                         <div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
+                            <div>
+                                <h3 class="uppercase" style="font-weight: 600;">Web Development</h3>
+                                <p style="line-height: 1.8;">Looking for a website?  We got it covered - building web applications with full functionality on Node and React.</p>
+                                <i class="icon-thumbs-up bgicon"></i>
+                            </div>
+                        </div>
 
-                    <script type="text/javascript">
+                        <div class="clear"></div><div class="line"></div>
 
-                        jQuery(document).ready(function($) {
+                        <script type="text/javascript">
 
-                            var ocClients = $("#oc-clients-full");
+                            jQuery(document).ready(function($) {
 
-                            ocClients.owlCarousel({
-                                items: 6,
-                                margin: 30,
-                                loop: true,
-                                nav: false,
-                                autoplay: true,
-                                dots: false,
-                                autoplayHoverPause: true,
-                                responsive:{
-                                    0:{ items:2 },
-                                    480:{ items:3 },
-                                    768:{ items:4 },
-                                    992:{ items:5 },
-                                    1200:{ items:6 }
-                                }
+                                var ocClients = $("#oc-clients-full");
+
+                                ocClients.owlCarousel({
+                                    items: 6,
+                                    margin: 30,
+                                    loop: true,
+                                    nav: false,
+                                    autoplay: true,
+                                    dots: false,
+                                    autoplayHoverPause: true,
+                                    responsive:{
+                                        0:{ items:2 },
+                                        480:{ items:3 },
+                                        768:{ items:4 },
+                                        992:{ items:5 },
+                                        1200:{ items:6 }
+                                    }
+                                });
+
                             });
 
-                        });
+                        </script>
 
-                    </script>
+                    </div>
+                 </div>
 
-                </div>
-            </div>
-
-
-            <!-- Related Portfolio Items
+            <!-- Portfolio Items
                     ============================================= -->
-                    <h4>Related Projects:</h4>
+                    <h4>Our Work:</h4>
 
                     <div id="related-portfolio" class="owl-carousel portfolio-carousel">
 
@@ -180,16 +175,15 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="images/portfolio/ambientsun.png" alt="Open Imagination">
+                                        <img src="images/portfolio/ambientsun-icon.png" alt="Open Imagination">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="http://www.ambientsun.club/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
                                     <h3><a href="http://www.ambientsun.club/">Ambient Sun Records</a></h3>
-                                    <span><a href="#">Custom API for recording studio needs</a> 
+                                    <span>Custom site and backend for recording studio.</span>
                                 </div>
                             </div>
                         </div>
@@ -197,16 +191,15 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
+                                        <img src="images/portfolio/investfeed-icon.png" alt="investFeed">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="https://www.investfeed.com/login" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-                                    <span><a href="#">Illustrations</a></span>
+                                    <h3><a href="https://www.investfeed.com/login">investFeed</a></h3>
+                                    <span>Follow others for on-demand stock advice and tips.</span>
                                 </div>
                             </div>
                         </div>
@@ -214,17 +207,15 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="#">
-                                        <img src="images/portfolio/4/4.jpg" alt="Mac Sunglasses">
+                                        <img src="images/portfolio/skribble-icon.png" alt="Skribble">
                                     </a>
                                     <div class="portfolio-overlay" data-lightbox="gallery">
-                                        <a href="images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                        <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="http://www.velocity360.io/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
-                                    <span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+                                    <h3><a href="http://www.velocity360.io/">Skribble</a></h3>
+                                    <span>Invite friends to chat in location-based channels.</span>
                                 </div>
                             </div>
                         </div>
@@ -232,74 +223,18 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="images/portfolio/4/5.jpg" alt="Console Activity">
+                                        <img src="images/portfolio/yardgames-icon.png" alt="Yard Games">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single.html">Console Activity</a></h3>
-                                    <span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
+                                    <h3><a href="#">Yard Games</a></h3>
+                                    <span>Find people nearby to play your favorite games.</span>
                                 </div>
                             </div>
                         </div>
-                    
-                        <div class="oc-item">
-                            <div class="iportfolio">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single-video.html">
-                                        <img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                        <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-                                    <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="oc-item">
-                            <div class="iportfolio">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <a href="images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-                                    <span><a href="#">Graphics</a></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="oc-item">
-                            <div class="iportfolio">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="images/portfolio/4/9.jpg" alt="Bridge Side">
-                                    </a>
-                                    <div class="portfolio-overlay" data-lightbox="gallery">
-                                        <a href="images/portfolio/full/9.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                        <a href="images/portfolio/full/9-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="images/portfolio/full/9-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                        <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single.html">Bridge Side</a></h3>
-                                    <span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
-                                </div>
-                            </div>
-                        </div>
-
                     </div><!-- .portfolio-carousel end -->
 
                     <script type="text/javascript">
@@ -326,14 +261,9 @@
 
                     </script>
 
-                </div>
 
-            </div>
-
-        </section><!-- #content end -->
-      
-            <div class="heading-block center" id="section-team">
-                        <h2>About Us</h2>
+              <div class="heading-block center" id="section-team">
+                    <h2>About Us</h2>
                        
             </div>
 
@@ -414,11 +344,10 @@
 
                     </div>
 
-
-                    <div id="section-contact" class="heading-block title-center page-section">
-                        <h2>Get in Touch</h2>
-                        <span>Contact us with your project inquiries and we'll get back to you in a jiffy.</span>
-                    </div>    
+                         <div class="heading-block center" id="section-contact">
+                            <h2>Get in Touch</h2>
+                            <span>Contact us with your project inquiries and we'll get back to you in a jiffy.</span>
+                         </div>
 
                     <!-- Contact Form
                     ============================================= -->
@@ -590,6 +519,21 @@
             </div>
 
         </section><!-- #content end -->
+
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end --> 
+
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
 
         <footer id="footer" class="dark">
 
