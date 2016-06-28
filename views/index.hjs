@@ -168,6 +168,169 @@
 
                 </div>
             </div>
+
+
+            <!-- Related Portfolio Items
+                    ============================================= -->
+                    <h4>Related Projects:</h4>
+
+                    <div id="related-portfolio" class="owl-carousel portfolio-carousel">
+
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/ambientsun.png" alt="Open Imagination">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="http://www.ambientsun.club/">Ambient Sun Records</a></h3>
+                                    <span><a href="#">Custom API for recording studio needs</a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
+                                    <span><a href="#">Illustrations</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="#">
+                                        <img src="images/portfolio/4/4.jpg" alt="Mac Sunglasses">
+                                    </a>
+                                    <div class="portfolio-overlay" data-lightbox="gallery">
+                                        <a href="images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                        <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                        <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+                                    <span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/4/5.jpg" alt="Console Activity">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single.html">Console Activity</a></h3>
+                                    <span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single-video.html">
+                                        <img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+                                        <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
+                                    <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                        <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
+                                    <span><a href="#">Graphics</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/4/9.jpg" alt="Bridge Side">
+                                    </a>
+                                    <div class="portfolio-overlay" data-lightbox="gallery">
+                                        <a href="images/portfolio/full/9.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                        <a href="images/portfolio/full/9-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                        <a href="images/portfolio/full/9-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                        <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="portfolio-single.html">Bridge Side</a></h3>
+                                    <span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- .portfolio-carousel end -->
+
+                    <script type="text/javascript">
+
+                        jQuery(document).ready(function($) {
+
+                            var relatedPortfolio = $("#related-portfolio");
+
+                            relatedPortfolio.owlCarousel({
+                                margin: 30,
+                                nav: false,
+                                dots:true,
+                                autoplay: true,
+                                autoplayHoverPause: true,
+                                responsive:{
+                                    0:{ items:1 },
+                                    480:{ items:2 },
+                                    768:{ items:3 },
+                                    992:{ items:4 }
+                                }
+                            });
+
+                        });
+
+                    </script>
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
       
             <div class="heading-block center" id="section-team">
                         <h2>About Us</h2>
@@ -321,6 +484,7 @@
                                 submitHandler: function(form) {
                                     $('.form-process').fadeIn();
                                     $(form).ajaxSubmit({
+                                          event.preventDefault();
                                         target: '#contact-form-result',
                                         success: function() {
                                             $('.form-process').fadeOut();
