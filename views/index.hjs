@@ -207,7 +207,7 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="#">
-                                        <img src="images/portfolio/skribble-icon.png" alt="Skribble">
+                                        <img src="images/portfolio/skribble-img.png" alt="Skribble">
                                     </a>
                                     <div class="portfolio-overlay" data-lightbox="gallery">
                                         <a href="http://www.velocity360.io/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
