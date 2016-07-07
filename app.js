@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var routes = require('./routes/index');
 var api = require('./routes/api');
 
-var mongoUrl = process.env.MONGOLAB_GREEN_URI || 'mongodb://localhost/milkshake-media'
+var mongoUrl = process.env.MONGODB_URI || 'mongodb://localhost/milkshake-media'
 mongoose.connect(mongoUrl, function(err, res){
   if(err){
     console.log('DB Connection Failed '+err)
