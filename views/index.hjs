@@ -210,11 +210,11 @@
                                         <img src="images/portfolio/skribble-img.png" alt="Skribble">
                                     </a>
                                     <div class="portfolio-overlay" data-lightbox="gallery">
-                                        <a href="http://www.velocity360.io/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="http://www.velocity360.io/">Skribble</a></h3>
+                                    <h3><a href="#">Skribble</a></h3>
                                     <span>Invite friends to chat in location-based channels.</span>
                                 </div>
                             </div>
