@@ -194,11 +194,11 @@
                                         <img src="images/portfolio/vet-fetch-icon.png" alt="Vet Fetch">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="https://vet-fetch.herokuapp.com/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="http://www.vetfetch.io/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="vet-fetch.herokuapp.com/">Vet Fetch Web App</a></h3>
+                                    <h3><a href="http://www.vetfetch.io/">Vet Fetch Web App</a></h3>
                                     <span>Manage your pet's health information and find vets nearby.</span>
                                 </div>
                             </div>
@@ -211,11 +211,11 @@
                                         <img src="images/portfolio/vet-fetch-logo.png" alt="Vet Fetch">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="https://vet-fetch.herokuapp.com/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="http://www.vetfetch.io/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="https://vet-fetch.herokuapp.com/">Vet Fetch iOS App</a></h3>
+                                    <h3><a href="http://www.vetfetch.io/">Vet Fetch iOS App</a></h3>
                                     <span>Manage your pet's health information and find vets nearby. Coming to App Store soon.</span>
                                 </div>
                             </div>
