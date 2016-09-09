@@ -191,18 +191,36 @@
                             <div class="iportfolio">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="images/portfolio/investfeed-icon.png" alt="investFeed">
+                                        <img src="images/portfolio/vet-fetch-icon.png" alt="Vet Fetch">
                                     </a>
                                     <div class="portfolio-overlay">
-                                        <a href="https://www.investfeed.com/login" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                        <a href="https://vet-fetch.herokuapp.com/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="https://www.investfeed.com/login">investFeed</a></h3>
-                                    <span>Follow others for on-demand stock advice and tips.</span>
+                                    <h3><a href="vet-fetch.herokuapp.com/">Vet Fetch Web App</a></h3>
+                                    <span>Manage your pet's health information and find vets nearby.</span>
                                 </div>
                             </div>
                         </div>
+
+                         <div class="oc-item">
+                            <div class="iportfolio">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="images/portfolio/vet-fetch-logo.png" alt="Vet Fetch">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <a href="https://vet-fetch.herokuapp.com/" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <h3><a href="https://vet-fetch.herokuapp.com/">Vet Fetch iOS App</a></h3>
+                                    <span>Manage your pet's health information and find vets nearby. Coming to App Store soon.</span>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="oc-item">
                             <div class="iportfolio">
                                 <div class="portfolio-image">
@@ -219,22 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="oc-item">
-                            <div class="iportfolio">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="images/portfolio/yardgames-icon.png" alt="Yard Games">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
-                                    </div>
-                                </div>
-                                <div class="portfolio-desc">
-                                    <h3><a href="#">Yard Games</a></h3>
-                                    <span>Find people nearby to play your favorite games.</span>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div><!-- .portfolio-carousel end -->
 
                     <script type="text/javascript">
@@ -442,12 +445,12 @@
 
                             jQuery('#google-map').gMap({
 
-                                address: '79 Madison, New York City, New York, USA',
+                                address: '59 Orient Avenue, Brooklyn, New York, USA',
                                 maptype: 'ROADMAP',
                                 zoom: 14,
                                 markers: [
                                     {
-                                        address: "79 Madison, New York City, New York, USA",
+                                        address: "59 Orient Avenue, Brooklyn, New York, USA",
                                         html: '<div style="width: 300px;"></div>',
                                         icon: {
                                             image: "/images/icons/map-icon-red.png",
@@ -481,7 +484,7 @@
                                 <div class="fbox-icon">
                                     <a href="https://www.google.com/maps/place/WeWork/@40.7440708,-73.9874109,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a7b9d4262d:0x623c51a553ee6303!8m2!3d40.7440668!4d-73.9852222"><i class="icon-map-marker2"></i></a>
                                 </div>
-                                <h3>Our Headquarters<span class="subtitle">79 Madison, NYC</span></h3>
+                                <h3>Our Headquarters<span class="subtitle">Brooklyn, NY</span></h3>
                             </div>
                         </div>
 
