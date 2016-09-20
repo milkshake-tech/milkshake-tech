@@ -347,10 +347,10 @@
 
                     </div>
 
-                         <div class="heading-block center" id="section-contact">
-                            <h2>Get in Touch</h2>
-                            <span>Contact us with your project inquiries and we'll get back to you in a jiffy.</span>
-                         </div>
+                    <div class="heading-block center" id="section-contact">
+                        <h2>Get in Touch</h2>
+                        <span>Contact us with your project inquiries and we'll get back to you in a jiffy.</span>
+                    </div>
 
                     <!-- Contact Form
                     ============================================= -->
