@@ -17,7 +17,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-github"></span>
+							<span class="icon"><img src="images/milkshakeIcon.png"/></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -40,17 +40,25 @@
 					<div id="main">
 
 						<!-- Intro -->
-							<article id="work">
+							<article id="work" style="text-align:center">
 								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<span><a style="text-decoration: none" href="http://www.vetfetch.io"><img src="images/newVet.png"/></a></span>
+								<p>Web app to manage your pet's health information and find vets nearby.</p>
+
+								<span><a style="text-decoration:none" href="http://www.dcanterwines.com"><img src="images/newDcanter.png"/></a></span>
+								<p>Custom business software designed to streamline wine concierge service.</p>
+
+								<span><a href="http://www.dcanterwines.com"><img src="images/newAmbient.png"/></a></span>
+								<p>Landing page for recording studio to capture new business.</p>
+
+								<span><img src="images/newHops.png" alt="" /></span>
+								<p>iOS mobile app lets you rate beers.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="services">
 								<h2 class="major">Services</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+
 								<p>At Milkshake we design and build custom web applications to streamline your operations. For a sprawling business, off-the-shelf software gets you started, but when it's time to invest in your infrastructure, less is more. We streamline and integrate our clients' technology platforms into one beautiful, easy-to-use solution.</p>
 								<p>Milkshake offers strategic operations technology consulting.</p>
 							</article>
@@ -58,8 +66,7 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p>We started Milkshake </p>
 							</article>
 
 						<!-- Contact -->
@@ -84,10 +91,9 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://twitter.com/milkshaketech" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.instagram.com/milkshakenyc/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/milkshake-tech" class="icon fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
