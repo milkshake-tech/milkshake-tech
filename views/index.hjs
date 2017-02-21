@@ -16,7 +16,6 @@
 
 		  ga('create', process.env.GOOGLE_ANALYTICS_TRACKING_CODE, 'auto');
 		  ga('send', 'pageview');
-
 		</script>
 	</head>
 	<body>
