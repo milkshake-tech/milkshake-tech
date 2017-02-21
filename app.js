@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-
+var dotenv = require('dotenv').config()
 var routes = require('./routes/index');
 var api = require('./routes/api');
 
@@ -15,7 +15,7 @@ mongoose.connect(mongoUrl, function(err, res){
     console.log('DB Connection Failed '+err)
   }
   else{
-    console.log('DB Connection Success: '+ mongoUrl)
+    console.log('DB Connection Success')
   }
 })
 
