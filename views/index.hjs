@@ -65,11 +65,9 @@
 
 						<!-- About -->
 							<article id="about" style="text-align:left;font-size:20px">
-								<h2 class="major">Services</h2>
-								<p>At Milkshake, our mission is to empower small businesses and startups to scale. We believe the best way to grow is by optimizing operations with technology. To help your company scale, we'll build software to address your specific needs.
-								<p>Our clients rely on our expertise in three areas: consumer applications, custom business software, and landing pages. Please contact us for additional information about our rates.</p>
-								<h2 class="major" style="text-align:center">About Us</h2>
-								<p>We're Brooklyn-based developers programming with the latest technologies: React, React Native, and Node, to develop web and mobile apps for consumers and businesses.</p>
+								<h2 class="major">About Us</h2>
+								<p>We’re two Brooklyn-based fullstack developers looking for challenges to solve with technology. That’s why we teamed up to tackle larger-scale projects together. As a team, we help early-stage companies invest in their technology operations through custom software. Independently, we develop web applications, build landing sites, and design high-fidelity prototypes. Check out our portfolio to see what we’re up to.
+								</p>
 							</article>
 
 						<!-- Contact -->
