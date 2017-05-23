@@ -5,41 +5,30 @@
 .project-container {
   display: flex;
   overflow: scroll;
+  flex-direction: row;
+  align-items: center;
 }
 
-.vetFetch-container {
+.work-container {
   width: 100%;
   margin: 0 1.6em;
 }
 
-.vetFetch-image-container {
-  width: 330px;
-  height: 150px;
+.work-image-container {
+  margin: 1em;
 }
 
-.vetFetch-image {
-  width: 100%;
-  height: auto;
-}
-
-.vetFetch-intro {
+.work-intro {
   height: 350px;
+  margin: 1em auto;
 }
 
-.dcanter-container {
-  width: 100%;
-  margin: 0 1.6em;
+.work-description1{
+  height: 250px;
+  margin: auto auto 2em auto;
 }
 
-.dcanter-intro {
-  height: 350px;
-}
-
-.ambient-sun-container {
-  width: 100%;
-  margin: 0 1.6em;
-}
-
-.ambient-sun-intro {
-  height: 350px;
+.work-description2{
+  height: 200px;
+  margin: 2em auto 2em auto;
 }

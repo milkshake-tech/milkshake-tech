@@ -41,7 +41,7 @@ router.post('/:resource', function(req, res, next){
 	var params = req.body
 	var controller = controllers[resource]
 
-	if (controller == null){
+	if (controller === null){
 		res.json({
 			confirmation: 'Fail',
 			message: 'Invalid Resource'
@@ -70,6 +70,7 @@ router.post('/:resource', function(req, res, next){
 		},
 		function(inquiryPkg, done){
 			var SparkPost = require('sparkpost')
+
 			var sparky = new SparkPost(process.env.SPARKPOST_API_KEY)
 			var message = "<p>"+inquiryPkg.message + ".</p><p>This came from " + inquiryPkg.name + ", " + inquiryPkg.email+'</p>'
 

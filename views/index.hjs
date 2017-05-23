@@ -31,7 +31,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Milkshake</h1>
+								<h1 style='color:#ffffff'>Milkshake</h1>
 								<p>Operations | Technology</p>
 							</div>
 						</div>
@@ -48,64 +48,135 @@
 					<div id="main">
 
 						<!-- Intro -->
-							<article id="work" style="text-align:center;font-size:20px">
-								<h2 class="major">Work</h2>
-
+							<article id="work" style="text-align:center;font-size:20px;width:55em">
+								<h2 class="major" style='margin:auto'>Work</h2>
 								<div class='project-container'>
-									<div class='vetFetch-container'>
-										<div class='vetFetch-image-container'>
-											<span><a style="text-decoration: none" href="http://www.vetfetch.io"><img class='vetFetch-image' src="images/vetFetch_blue_W-330_H-368.png"/></a></span>
+									<div class='work-container'>
+										<div class='work-image-container'>
+											<span><a style="text-decoration: none" href="http://www.vetfetch.io">
+												<img src="images/vetFetchLogo.png"/>
+											</a></span>
 										</div>
-										<h3>What is it?</h3>
-										<div class=vetFetch-intro>
-											<p style="text-align:left">vetFetch is a site for users to manage their pets' health online. From design to production, we've partnered with vetFetch to launch their pet management software.<br />
+										<div class='work-intro'>
+											<div class='work-description1'>
+												<h3>What is it?</h3>
+												<p style="text-align:left">vetFetch is an app designed for web where pet owners can find recommended veterinarians near them. Powered by Foursquare, vetFetch searches veterinarians in a given zipcode and lets users store their pet's health records for easy access.
+													<br />
+											</div>
+											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
+												<span><a style="text-decoration:none" href="http://www.vetfetch.io">
+													<img src="images/vetFetchScreenshot.png"/>
+												</a></span>
+											</div>
+											<div class='work-description2'>
+												<h3>Where is it today?</h3>
+												<p style="text-align:left">After finding a veterinarian, users can login to vetFetch to view their pet’s health records on the go. vetFetch was a finalist for $50k investment from the 2017 Davidson Venture Fund. </p>
+											</div>
 										</div>
-										<h3>Where is it today?</h3>
-										<p style="text-align:left">The initial release of the app will let users upload documents, file insurance claims, and track medical records for pets. vetFetch is currently seeking a seed round of venture funding.</p>
 									</div>
 
-									<div class='dcanter-container'>
-										<span><a style="text-decoration:none" href="http://www.dcanterwines.com"><img src="images/dcanter_W-330_H-169.png"/></a></span>
-										<h3>What is it?</h3>
-										<div class='dcanter-intro'>
-											<p style="text-align:left">Brix, by Dcanter Wines, is logistics management software designed to streamline sales and delivery operations. Our team collaborated with Dcanter to architect their information systems and integrate legacy tools.</p>
+									<div class='work-container'>
+										<div class='work-image-container'>
+											<span><a style="text-decoration:none" href="http://www.dcanterwines.com">
+												<img src="images/DCanterConciergeLogo.png"/>
+											</a></span>
 										</div>
-										<h3>Where is it today?</h3>
-										<p style="text-align:left">Today, Brix consolidates the functions of four off-the-shelf platforms into a single web application, reducing the time to curate, bill, and deliver orders to clients. As Dcanter continues to expand, we've laid the groundwork with light, adaptable software to meet its evolviing business requirements.</p>
+										<div class='work-intro'>
+											<div class='work-description1'>
+												<h3>What is it?</h3>
+												<p style="text-align:left">Brix is a custom software tool designed to streamline operations for DCanter Wines’ Concierge wine delivery service. Our team collaborated with DCanter to consolidate the functions of four off-the-shelf platforms into a single web application, reducing the time to curate, invoice, and deliver orders to clients.</p>
+											</div>
+											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
+												<span><a style="text-decoration:none" href="http://www.dcanterwines.com">
+													<img src="images/BrixScreenshot2.png"/>
+												</a></span>
+											</div>
+											<div class='work-description2'>
+												<h3>Where is it today?</h3>
+												<p style="text-align:left">Brix integrates with DCanter’s existing point of sale solution and credit card processing provider to charge customers. To manage deliveries, Brix leverages Google Maps to create optimized delivery routes and Twilio to text customers their delivery’s ETA. After delivery, Brix automates the collection of customers’ feedback, sending each customer a tailored survey based on their purchase history.</p>
+											</div>
+										</div>
 									</div>
 
-									<div class='ambient-sun-container'>
-										<span><a style="text-decoration:none" href="http://www.ambientsun.club"><img src="images/Ambient_W330_H_222.png"/></a></span>
-										<h3>What is it?</h3>
-										<div class='ambient-sun-intro'>
-											<p style="text-align:left">Ambient Sun Records came to us to modernize their web presence. We helped them implement their design, register the domain, and currently maintain the website.</p>
+									<div class='work-container'>
+										<div class='work-image-container'>
+											<span><a style="text-decoration:none" href="http://www.ambientsun.club"><img src="images/AmbientSunLogo.png"/></a></span>
 										</div>
-										<h3>Where is it today?</h3>
-										<p style="text-align:left">The new site is a responsive single-page web application that captures user subscriptions. This landing page is an example of short-term projects we build for small businesses.</p>
+										<div class='work-intro'>
+											<div class='work-description1'>
+												<h3>What is it?</h3>
+												<p style="text-align:left">Ambient Sun Records came to us to modernize their web presence. We helped them implement their design, register the domain, and currently maintain the website.</p>
+											</div>
+											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
+												<span><a style="text-decoration:none" href="http://www.ambientsun.club">
+													<img src="images/AmbientSunScreenshot.png"/>
+												</a></span>
+											</div>
+											<div class='work-description2'>
+												<h3>Where is it today?</h3>
+												<p style="text-align:left">The new site is a responsive single-page web application that captures user subscriptions. This landing page is an example of short-term projects we build for small businesses.</p>
+											</div>
+										</div>
 									</div>
+
+									<div class='work-container'>
+										<div class='work-image-container'>
+											<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/"><img src="images/workSpaceLogo.png"/></a></span>
+										</div>
+										<div class='work-intro'>
+											<div class='work-description1'>
+												<h3>What is it?</h3>
+												<p style="text-align:left">workSpace is a web application where users can post short stories anonymously.</p>
+											</div>
+											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
+												<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/">
+													<img src="images/workSpaceScreenshot.png"/>
+												</a></span>
+											</div>
+											<div class='work-description2'>
+												<h3>Where is it today?</h3>
+												<p style="text-align:left">Today, workSpace showcases a feed of user's stories and invites other user's to submit stories. Tag stories with relevant keywords and add images to give your stories some context.</p>
+											</div>
+										</div>
+									</div>
+
 								</div>
 							</article>
 
 						<!-- About -->
-							<article id="about" style="text-align:left;font-size:20px">
-								<h2 class="major">Services</h2>
-								<p>We’re two Brooklyn-based engineers who enjoy solving operational problems with technology. As a team, we advise small businesses and early-stage startups on how to architect their technology operations to proactively address existing and future business challenges. With over 8 years of experience in health care and finance, our team excels at designing custom apps for the web.</p>
-								<p>Our sweet spot is the MVP (minimum-viable-product) -  we agree that technology is the backbone is any operations-based business, and in order to scale you'll need a killer MVP to attract top-tier investment and talent. That's where we come in - we lay the foundational work for your engineers to hit the ground running when it's time to grow.</p>
-								<p>As part of our services, we also work independently to develop web applications, build landing sites, and design high-fidelity prototypes.</p>
+							<article id="about" style="text-align:left;font-size:20px;width:55em">
+								<h2 class="major" style='margin:auto'>Services</h2>
+								<p>We’re two Brooklyn-based engineers who enjoy solving operational problems with technology. As a team, we advise small businesses and early-stage startups on how to architect their technology operations to proactively address existing and future business challenges.</p>
+								<p>We believe that technology is the backbone of streamlined operations, and in order to scale you'll need technology that works for your business. That's where we come in -- we consult your team to assess how we can best implement a customized technology solution to help your business grow.</p>
+								<p>As part of our services, our sweet spot is the MVP (minimum-viable-product) -- we work as a team to build an MVP to get your ideas off the ground. We also work independently to develop web applications, build landing sites, and design high-fidelity prototypes.</p>
+								<p>Reach out to us to see how we can help with your development needs.</p>
 
-								<h2 class='major'>Team</h2>
+								<h2 class='major' style='margin:auto'>Team</h2>
 								<h2>Katrina</h2>
-								<img src='/images/katrina.png' />
+								<div style='text-align:center'>
+									<img src='/images/katrina.png' />
+								</div>
 								<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
-								<p>It's hard not to see health care as the single biggest beneficiary of today's technology landscape. Consider this, most hospital systems in the U.S. are still documenting patients records with pen and paper. Moreover, the better we can leverage technology to identify and treat combat chronic illness, the more resources we can invest in preventative care to lower long-term costs.</p>
+								<p>It's hard not to see healthcare as the single biggest beneficiary of today's technology landscape. Most health care offices in the U.S. are still documenting patient’s records and invoices with pen and paper and patients don’t have access to their own medical records. The more resources we can invest in improving access to preventative healthcare through technology, the higher chance we have at engaging patients in their healthcare decisions and lowering healthcare costs for families across the US.</p>
+								<p style='text-align:center'>Email me at katrina@milkshake.tech</p>
 								<h2>Brian</h2>
-								<img src='/images/brian.png' />
-								<h3 class='bio'>Brian's bio</h3>
-								<p>Bio text here</p>
+								<div style='text-align:center'>
+									<img src='/images/brian.png' />
+								</div>
+								<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
+								<p>Everywhere. Technology isn’t it’s own industry anymore. Today, technology is a part of every sector and tomorrow, we’ll see technology as the cornerstone of most industries. If there are repetitive tasks when it comes to a business’ operations, you can be sure there is a way to automate the process with technology. The great thing about technology is that it is creative -- it can be applied to any problem and there are a host of resources to find a unique way to use technology to create solutions. </p>
+								<p style='text-align:center'>Email me at brian@milkshake.tech</p>
+
+								<h3 class='bio'>Why Milkshake?</h3>
+								<p>Milkshake is the name of our dog. He's our muse.</p>
+								<div style='text-align:center'>
+									<img src='/images/milkshake-team.png' />
+								</div>
+
 							</article>
 
 						<!-- Contact -->
-							<article id="contact">
+							<article id="contact" style="color:black">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="api/inquiry">
 									<div class="field half first">
