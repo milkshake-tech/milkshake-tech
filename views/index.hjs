@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/milkshake.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script>
@@ -49,25 +50,58 @@
 						<!-- Intro -->
 							<article id="work" style="text-align:center;font-size:20px">
 								<h2 class="major">Work</h2>
-								<span><a style="text-decoration: none" href="http://www.vetfetch.io"><img src="images/newVet.png"/></a></span>
 
-								<p style="text-align:left">vetFetch is a site for users to manage their pets' health online. From design to production, we've partnered with vetFetch to launch their pet management software.<br />
-								<p style="text-align:left">The initial release of the app will let users upload documents, file insurance claims, and track medical records for pets. vetFetch is currently seeking a seed round of venture funding.</p>
+								<div class='project-container'>
+									<div class='vetFetch-container'>
+										<div class='vetFetch-image-container'>
+											<span><a style="text-decoration: none" href="http://www.vetfetch.io"><img class='vetFetch-image' src="images/vetFetch_blue_W-330_H-368.png"/></a></span>
+										</div>
+										<h3>What is it?</h3>
+										<div class=vetFetch-intro>
+											<p style="text-align:left">vetFetch is a site for users to manage their pets' health online. From design to production, we've partnered with vetFetch to launch their pet management software.<br />
+										</div>
+										<h3>Where is it today?</h3>
+										<p style="text-align:left">The initial release of the app will let users upload documents, file insurance claims, and track medical records for pets. vetFetch is currently seeking a seed round of venture funding.</p>
+									</div>
 
-								<span><a style="text-decoration:none" href="http://www.dcanterwines.com"><img src="images/newDcanter.png"/></a></span>
-								<p style="text-align:left">Brix, by Dcanter Wines, is logistics management software designed to streamline sales and delivery operations. Our team collaborated with Dcanter to architect their information systems and integrate legacy tools.</p>
-								<p style="text-align:left">Today, Brix consolidates the functions of four off-the-shelf platforms into a single web application, reducing the time to curate, bill, and deliver orders to clients. As Dcanter continues to expand, we've laid the groundwork with light, adaptable software to meet its evolviing business requirements.</p>
+									<div class='dcanter-container'>
+										<span><a style="text-decoration:none" href="http://www.dcanterwines.com"><img src="images/dcanter_W-330_H-169.png"/></a></span>
+										<h3>What is it?</h3>
+										<div class='dcanter-intro'>
+											<p style="text-align:left">Brix, by Dcanter Wines, is logistics management software designed to streamline sales and delivery operations. Our team collaborated with Dcanter to architect their information systems and integrate legacy tools.</p>
+										</div>
+										<h3>Where is it today?</h3>
+										<p style="text-align:left">Today, Brix consolidates the functions of four off-the-shelf platforms into a single web application, reducing the time to curate, bill, and deliver orders to clients. As Dcanter continues to expand, we've laid the groundwork with light, adaptable software to meet its evolviing business requirements.</p>
+									</div>
 
-								<span><a href="http://www.ambientsun.club"><img src="images/newAmbient.png"/></a></span>
-								<p style="text-align:left">Ambient Sun Records came to us to modernize their web presence. We helped them implement their design, register the domain, and currently maintain the website.</p>
-								<p style="text-align:left">The new site is a responsive single-page web application that captures user subscriptions. This landing page is an example of short-term projects we build for small businesses.</p>
+									<div class='ambient-sun-container'>
+										<span><a style="text-decoration:none" href="http://www.ambientsun.club"><img src="images/Ambient_W330_H_222.png"/></a></span>
+										<h3>What is it?</h3>
+										<div class='ambient-sun-intro'>
+											<p style="text-align:left">Ambient Sun Records came to us to modernize their web presence. We helped them implement their design, register the domain, and currently maintain the website.</p>
+										</div>
+										<h3>Where is it today?</h3>
+										<p style="text-align:left">The new site is a responsive single-page web application that captures user subscriptions. This landing page is an example of short-term projects we build for small businesses.</p>
+									</div>
+								</div>
 							</article>
 
 						<!-- About -->
 							<article id="about" style="text-align:left;font-size:20px">
-								<h2 class="major">About Us</h2>
-								<p>We’re two Brooklyn-based fullstack developers looking for challenges to solve with technology. That’s why we teamed up to tackle larger-scale projects together. As a team, we help early-stage companies invest in their technology operations through custom software. Independently, we develop web applications, build landing sites, and design high-fidelity prototypes. Check out our portfolio to see what we’re up to.
-								</p>
+								<h2 class="major">Services</h2>
+								<p>We’re two Brooklyn-based engineers who enjoy solving operational problems with technology. As a team, we advise small businesses and early-stage startups on how to architect their technology operations to proactively address existing and future business challenges. With over 8 years of experience in health care and finance, our team excels at designing custom apps for the web.</p>
+								<p>Our sweet spot is the MVP (minimum-viable-product) -  we agree that technology is the backbone is any operations-based business, and in order to scale you'll need a killer MVP to attract top-tier investment and talent. That's where we come in - we lay the foundational work for your engineers to hit the ground running when it's time to grow.</p>
+								<p>As part of our services, we also work independently to develop web applications, build landing sites, and design high-fidelity prototypes.</p>
+
+								<h2 class='major'>Team</h2>
+								<h2>Katrina</h2>
+								<img src='/images/katrina.png' />
+								<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
+								<p>It's hard not to see health care as the single biggest beneficiary of today's technology landscape. Consider this, most hospital systems in the U.S. are still documenting patients records with pen and paper. Moreover, the better we can leverage technology to identify and treat combat chronic illness, the more resources we can invest in preventative care to lower long-term costs.</p>
+								<h2>Brian</h2>
+								<img src='/images/brian.png' />
+								<h3 class='bio'>Brian's bio</h3>
+								<p>Bio text here</p>
 							</article>
 
 						<!-- Contact -->

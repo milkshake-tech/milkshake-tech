@@ -1,0 +1,45 @@
+.bio {
+  margin: 1em auto;
+}
+
+.project-container {
+  display: flex;
+  overflow: scroll;
+}
+
+.vetFetch-container {
+  width: 100%;
+  margin: 0 1.6em;
+}
+
+.vetFetch-image-container {
+  width: 330px;
+  height: 150px;
+}
+
+.vetFetch-image {
+  width: 100%;
+  height: auto;
+}
+
+.vetFetch-intro {
+  height: 350px;
+}
+
+.dcanter-container {
+  width: 100%;
+  margin: 0 1.6em;
+}
+
+.dcanter-intro {
+  height: 350px;
+}
+
+.ambient-sun-container {
+  width: 100%;
+  margin: 0 1.6em;
+}
+
+.ambient-sun-intro {
+  height: 350px;
+}
