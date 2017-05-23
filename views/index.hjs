@@ -146,33 +146,38 @@
 						<!-- About -->
 							<article id="about" style="text-align:left;font-size:20px;width:55em">
 								<h2 class="major" style='margin:auto'>Services</h2>
-								<p>We’re two Brooklyn-based engineers who enjoy solving operational problems with technology. As a team, we advise small businesses and early-stage startups on how to architect their technology operations to proactively address existing and future business challenges.</p>
-								<p>We believe that technology is the backbone of streamlined operations, and in order to scale you'll need technology that works for your business. That's where we come in -- we consult your team to assess how we can best implement a customized technology solution to help your business grow.</p>
-								<p>As part of our services, our sweet spot is the MVP (minimum-viable-product) -- we work as a team to build an MVP to get your ideas off the ground. We also work independently to develop web applications, build landing sites, and design high-fidelity prototypes.</p>
-								<p>Reach out to us to see how we can help with your development needs.</p>
+								<div style='margin:1em auto'>
+									<p>We’re two Brooklyn-based engineers who enjoy solving operational problems with technology. As a team, we advise small businesses and early-stage startups on how to architect their technology operations to proactively address existing and future business challenges.</p>
+									<p>We believe that technology is the backbone of streamlined operations, and in order to scale you'll need technology that works for your business. That's where we come in -- we consult your team to assess how we can best implement a customized technology solution to help your business grow.</p>
+									<p>As part of our services, our sweet spot is the MVP (minimum-viable-product) -- we work as a team to build an MVP to get your ideas off the ground. We also work independently to develop web applications, build landing sites, and design high-fidelity prototypes.</p>
+									<p>Reach out to us to see how we can help with your development needs.</p>
+								</div>
+
 
 								<h2 class='major' style='margin:auto'>Team</h2>
-								<h2>Katrina</h2>
-								<div style='text-align:center'>
-									<img src='/images/katrina.png' />
+								<div style='margin:1em auto 1em auto'>
+									<h2>Katrina</h2>
+									<div style='text-align:center'>
+										<img src='/images/katrina.png' />
+									</div>
+									<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
+									<p>It's hard not to see healthcare as the single biggest beneficiary of today's technology landscape. Most health care offices in the U.S. are still documenting patient’s records and invoices with pen and paper and patients don’t have access to their own medical records. The more resources we can invest in improving access to preventative healthcare through technology, the higher chance we have at engaging patients in their healthcare decisions and lowering healthcare costs for families across the US.</p>
+									<p>Email me at <span style='font-weight:bold'>katrina@milkshake.tech</span></p>
+									<h2>Brian</h2>
+									<div style='text-align:center'>
+										<img src='/images/brian.png' />
+									</div>
+									<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
+									<p>Everywhere. Technology isn’t it’s own industry anymore. Today, technology is a part of every sector and tomorrow, we’ll see technology as the cornerstone of most industries. If there are repetitive tasks when it comes to a business’ operations, you can be sure there is a way to automate the process with technology. The great thing about technology is that it is creative -- it can be applied to any problem and there are a host of resources to find a unique way to use technology to create solutions. </p>
+									<p>Email me at <span style='font-weight:bold'>brian@milkshake.tech</span></p>
 								</div>
-								<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
-								<p>It's hard not to see healthcare as the single biggest beneficiary of today's technology landscape. Most health care offices in the U.S. are still documenting patient’s records and invoices with pen and paper and patients don’t have access to their own medical records. The more resources we can invest in improving access to preventative healthcare through technology, the higher chance we have at engaging patients in their healthcare decisions and lowering healthcare costs for families across the US.</p>
-								<p>Email me at <span style='font-weight:bold'>katrina@milkshake.tech</span></p>
-								<h2>Brian</h2>
-								<div style='text-align:center'>
-									<img src='/images/brian.png' />
-								</div>
-								<h3 class='bio'>Where do you see the most growth opportunity when it comes to technology?</h3>
-								<p>Everywhere. Technology isn’t it’s own industry anymore. Today, technology is a part of every sector and tomorrow, we’ll see technology as the cornerstone of most industries. If there are repetitive tasks when it comes to a business’ operations, you can be sure there is a way to automate the process with technology. The great thing about technology is that it is creative -- it can be applied to any problem and there are a host of resources to find a unique way to use technology to create solutions. </p>
-								<p>Email me at <span style='font-weight:bold'>brian@milkshake.tech</span></p>
+
 
 								<h3 class='bio'>Why Milkshake?</h3>
 								<p>Milkshake is the name of our dog. He's our muse.</p>
 								<div style='text-align:center'>
 									<img src='/images/milkshake-team.png' />
 								</div>
-
 							</article>
 
 						<!-- Contact -->
@@ -196,10 +201,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="https://twitter.com/milkshaketech" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.instagram.com/milkshakenyc/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								</ul>
 							</article>
 					</div>
 
