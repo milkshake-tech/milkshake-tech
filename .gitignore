@@ -2,6 +2,5 @@
 /public/dark
 /node_modules
 /.env
-/config
 *.log
 *.DS_Store
