@@ -5,18 +5,19 @@ const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
-require('dotenv').config()
+const config = require('./config/database')
 const routes = require('./routes/index')
 const api = require('./routes/api')
+require('dotenv').config()
 
-const mongoUrl = process.env.MONGODB_URI || 'mongodb://localhost/milkshake-media'
-mongoose.connect(mongoUrl, function(err, res){
+const mongoUrl = config.db[process.env.NODE_ENV]
+
+mongoose.connect(mongoUrl, (err, res) => {
   if(err){
     console.log('DB Connection Failed '+err)
   }
-  else{
-    console.log('DB Connection Success')
-  }
+
+  console.log('DB Connection Success: '+JSON.stringify(mongoUrl))
 })
 
 const app = express()
