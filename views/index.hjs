@@ -53,7 +53,7 @@
 								<div class='project-container'>
 									<div class='work-container'>
 										<div class='work-image-container'>
-											<span><a style="text-decoration: none" href="http://www.vetfetch.io">
+											<span><a style="text-decoration: none" href="http://www.vetfetch.io" target="_tab">
 												<img src="images/vetFetchLogo.png"/>
 											</a></span>
 										</div>
@@ -64,7 +64,7 @@
 													<br />
 											</div>
 											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
-												<span><a style="text-decoration:none" href="http://www.vetfetch.io">
+												<span><a style="text-decoration:none" href="http://www.vetfetch.io" target="_tab">
 													<img src="images/vetFetchScreenshot.png"/>
 												</a></span>
 											</div>
@@ -77,7 +77,7 @@
 
 									<div class='work-container'>
 										<div class='work-image-container'>
-											<span><a style="text-decoration:none" href="http://www.dcanterwines.com">
+											<span><a style="text-decoration:none" href="http://www.dcanterwines.com" target="_tab">
 												<img src="images/DCanterConciergeLogo.png"/>
 											</a></span>
 										</div>
@@ -87,7 +87,7 @@
 												<p style="text-align:left">Brix is a custom software tool designed to streamline operations for DCanter Wines’ Concierge wine delivery service. Our team collaborated with DCanter to consolidate the functions of four off-the-shelf platforms into a single web application, reducing the time to curate, invoice, and deliver orders to clients.</p>
 											</div>
 											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
-												<span><a style="text-decoration:none" href="http://www.dcanterwines.com">
+												<span><a style="text-decoration:none" href="http://www.dcanterwines.com" target="_tab">
 													<img src="images/BrixScreenshot2.png"/>
 												</a></span>
 											</div>
@@ -100,7 +100,7 @@
 
 									<div class='work-container'>
 										<div class='work-image-container'>
-											<span><a style="text-decoration:none" href="http://www.ambientsun.club"><img src="images/AmbientSunLogo.png"/></a></span>
+											<span><a style="text-decoration:none" href="http://www.ambientsun.club" target="_tab"><img src="images/AmbientSunLogo.png"/></a></span>
 										</div>
 										<div class='work-intro'>
 											<div class='work-description1'>
@@ -108,7 +108,7 @@
 												<p style="text-align:left">Ambient Sun Records came to us to modernize their web presence. We helped them implement their design, register the domain, and currently maintain the website.</p>
 											</div>
 											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
-												<span><a style="text-decoration:none" href="http://www.ambientsun.club">
+												<span><a style="text-decoration:none" href="http://www.ambientsun.club" target="_tab">
 													<img src="images/AmbientSunScreenshot.png"/>
 												</a></span>
 											</div>
@@ -121,7 +121,7 @@
 
 									<div class='work-container'>
 										<div class='work-image-container'>
-											<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/"><img src="images/workSpaceLogo.png"/></a></span>
+											<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/" target="_tab"><img src="images/workSpaceLogo.png"/></a></span>
 										</div>
 										<div class='work-intro'>
 											<div class='work-description1'>
@@ -129,7 +129,7 @@
 												<p style="text-align:left">workSpace is a web application where users can post short stories anonymously.</p>
 											</div>
 											<div class='work-image-container' style='box-shadow:8px 10px 7px 8px #d3d3d3'>
-												<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/">
+												<span><a style="text-decoration:none" href="https://workspace-milkshake.herokuapp.com/" target="_tab">
 													<img src="images/workSpaceScreenshot.png"/>
 												</a></span>
 											</div>

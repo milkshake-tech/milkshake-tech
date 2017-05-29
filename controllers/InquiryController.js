@@ -1,4 +1,4 @@
-var Inquiry = require('../models/Inquiry')
+const Inquiry = require('../models/Inquiry')
 
 module.exports = {
 

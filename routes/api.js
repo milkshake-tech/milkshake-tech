@@ -1,66 +1,44 @@
-var express = require('express')
-var router = express.Router()
-var async = require('async')
-var inquiryController = require('../controllers/InquiryController')
-var controllers = {
+const express = require('express')
+const router = express.Router()
+const async = require('async')
+const inquiryController = require('../controllers/InquiryController')
+const controllers = {
 	inquiry: inquiryController
 }
 
-router.get('/:resource', function(req, res, next) {
-  var resource = req.params.resource
-  var controller = controllers[resource]
-	if (controller == null){
-	 	res.json({
-  			confirmation: 'fail',
-  			message: 'Invalid Resource'
-  		})
-
-  		return
+router.get('/:resource', (req, res) => {
+  const resource = req.params.resource
+  const controller = controllers[resource]
+	if (controller === null){
+  	return res.json({ confirmation: 'fail', message: 'Invalid Resource' })
 	}
 
-	controller.get(req.query, false, function(err, results){
+	controller.get(req.query, false, (err, results) => {
 		if (err){
-			res.json({
-				confirmation: 'Fail',
-				message: err
-			})
-			return
+			return res.json({ confirmation: 'Fail', message: err })
 		}
 
-		res.json({
-			confirmation: 'Success',
-			results: results
-		})
-		return
+		return res.json({ confirmation: 'Success', results: results })
 	})
-
 })
 
-router.post('/:resource', function(req, res, next){
-	var resource = req.params.resource
-	var params = req.body
-	var controller = controllers[resource]
+router.post('/:resource', (req, res, next) => {
+	const resource = req.params.resource
+	const params = req.body
+	const controller = controllers[resource]
 
 	if (controller === null){
-		res.json({
-			confirmation: 'Fail',
-			message: 'Invalid Resource'
-		})
-		return
+		return res.json({ confirmation: 'Fail', message: 'Invalid Resource' })
 	}
 
 	async.waterfall([
 		function(done){
-			controller.post(req.body, function(err, response){
+			controller.post(req.body, (err, response) => {
 				if(err){
-					res.json({
-						confirmation: 'Fail',
-						message: err
-					})
-					return
+					return res.json({ confirmation: 'Fail', message: err })
 				}
 
-				var inquiryPkg = {
+				let inquiryPkg = {
 					message: response.message,
 					email: response.email,
 					name: response.name
@@ -69,22 +47,19 @@ router.post('/:resource', function(req, res, next){
 			})
 		},
 		function(inquiryPkg, done){
-			var SparkPost = require('sparkpost')
+			const SparkPost = require('sparkpost')
 
-			var sparky = new SparkPost(process.env.SPARKPOST_API_KEY)
-			var message = "<p>"+inquiryPkg.message + ".</p><p>This came from " + inquiryPkg.name + ", " + inquiryPkg.email+'</p>'
-
+			const sparky = new SparkPost(process.env.SPARKPOST_API_KEY)
+			let message = "<p>"+inquiryPkg.message + ".</p><p>This came from " + inquiryPkg.name + ", " + inquiryPkg.email+'</p>'
 			sparky.transmissions.send({
 				content: {
 					from: 'katrina@milkshake.tech',
-					subject: 'Milkshake Inquiry!',
+					subject: 'Milkshake Inquiry',
 					html: message
 				},
 				recipients: [
 					{
-						address: {
-							email: 'brian@milkshake.tech'
-						}
+						address: { email: 'brian@milkshake.tech' }
 					}
 				]
 			})
@@ -92,11 +67,8 @@ router.post('/:resource', function(req, res, next){
 				res.redirect('/')
 			})
 			.catch(err => {
-				res.json({
-					confirmation: "Fail",
-					message: err
-				})
-				return
+				console.log('ERR: '+JSON.stringify(err))
+				return res.json({ confirmation: "Fail", message: err })
 			})
 		}
 	])

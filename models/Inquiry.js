@@ -1,6 +1,6 @@
-var mongoose = require('mongoose')
+const mongoose = require('mongoose')
 
-var InquirySchema = new mongoose.Schema({
+const InquirySchema = new mongoose.Schema({
 	name:{type:String, default: ''},
 	email:{type:String, default: ''},
 	phone:{type:String, default: ''},
