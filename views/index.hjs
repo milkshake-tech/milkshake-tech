@@ -44,7 +44,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon"><img src="images/milkshakeIcon.png"/></span>
+							<span class="icon"><img style='margin-top:.5em; margin-left:.25em' src='images/Milkshake-logo-white_65x65.png'/></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -152,7 +152,7 @@
 											</div>
 											<div class='work-description2'>
 												<h3>Where is it today?</h3>
-												<p style="text-align:left">Today, workSpace showcases a feed of user's stories and invites other user's to submit stories. Tag stories with relevant keywords and add images to give your stories some context.</p>
+												<p style="text-align:left">Today, workSpace showcases a feed of user's stories and invites other user's to submit stories. Tag stories to seek feedback from other users and add images to give your stories context.</p>
 											</div>
 										</div>
 									</div>
