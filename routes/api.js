@@ -64,6 +64,7 @@ router.post('/:resource', (req, res) => {
 
 			sg.API(request, function (err, response) {
 			  if (err) {
+					console.log('Line 67 Sendgrid Err: '+JSON.stringify(err))
 					res.redirect('/#contact')
 					return
 			  }
