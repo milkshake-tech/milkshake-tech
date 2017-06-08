@@ -10,15 +10,18 @@ router.get('/:resource', (req, res) => {
   const resource = req.params.resource
   const controller = controllers[resource]
 	if (controller === null){
-  	return res.json({ confirmation: 'fail', message: 'Invalid Resource' })
+  	res.json({ confirmation: 'fail', message: 'Invalid Resource' })
+		return
 	}
 
 	controller.get(req.query, false, (err, results) => {
 		if (err){
-			return res.json({ confirmation: 'Fail', message: err })
+			res.json({ confirmation: 'Fail', message: err })
+			return
 		}
 
-		return res.json({ confirmation: 'Success', results: results })
+		res.json({ confirmation: 'Success', results: results })
+		return 
 	})
 })
 
@@ -36,7 +39,8 @@ router.post('/:resource', (req, res) => {
 		function(done){
 			controller.post(req.body, (err, response) => {
 				if(err){
-					return res.json({ confirmation: 'Fail', message: err })
+					res.json({ confirmation: 'Fail', message: err })
+					return
 				}
 
 				let inquiryPkg = {
@@ -48,7 +52,7 @@ router.post('/:resource', (req, res) => {
 			})
 		},
 		function(inquiryPkg, done){
-			let helper = require('sendgrid').mail;
+			let helper = require('sendgrid').mail
 			let fromEmail = new helper.Email('karodriguez8@gmail.com')
 			let toEmail = new helper.Email('katrina@milkshake.tech')
 			let subject = 'Milkshake | New Inquiry'
