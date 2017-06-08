@@ -22,13 +22,14 @@ router.get('/:resource', (req, res) => {
 	})
 })
 
-router.post('/:resource', (req, res, next) => {
+router.post('/:resource', (req, res) => {
 	const resource = req.params.resource
 	const params = req.body
 	const controller = controllers[resource]
 
 	if (controller === null){
-		return res.json({ confirmation: 'Fail', message: 'Invalid Resource' })
+		res.json({ confirmation: 'Fail', message: 'Invalid Resource' })
+		return
 	}
 
 	async.waterfall([
@@ -47,28 +48,27 @@ router.post('/:resource', (req, res, next) => {
 			})
 		},
 		function(inquiryPkg, done){
-			const SparkPost = require('sparkpost')
+			let helper = require('sendgrid').mail;
+			let fromEmail = new helper.Email('katrina@milkshake.tech')
+			let toEmail = new helper.Email('katrina@milkshake.tech')
+			let subject = 'Milkshake | New Inquiry'
+			let content = new helper.Content('text/plain', 'New message from '+inquiryPkg.name+", "+inquiryPkg.email+'. Message: '+inquiryPkg.message)
+			let mail = new helper.Mail(fromEmail, subject, toEmail, content)
 
-			const sparky = new SparkPost(process.env.SPARKPOST_API_KEY)
-			let message = "<p>"+inquiryPkg.message + ".</p><p>This came from " + inquiryPkg.name + ", " + inquiryPkg.email+'</p>'
-			sparky.transmissions.send({
-				content: {
-					from: 'katrina@milkshake.tech',
-					subject: 'Milkshake Inquiry',
-					html: message
-				},
-				recipients: [
-					{
-						address: { email: 'brian@milkshake.tech' }
-					}
-				]
+			let sg = require('sendgrid')(process.env.SENDGRID_API_KEY)
+			let request = sg.emptyRequest({
+			  method: 'POST',
+			  path: '/v3/mail/send',
+			  body: mail.toJSON()
 			})
-			.then(data => {
-				res.redirect('/')
-			})
-			.catch(err => {
-				console.log('ERR: '+JSON.stringify(err))
-				return res.json({ confirmation: "Fail", message: err })
+
+			sg.API(request, function (err, response) {
+			  if (err) {
+					res.redirect('/#contact')
+					return
+			  }
+				res.redirect('/#contact-thankyou')
+				return
 			})
 		}
 	])
