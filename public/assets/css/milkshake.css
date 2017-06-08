@@ -2,6 +2,27 @@
   margin: 1em auto;
 }
 
+.navigation-bar {
+  margin:-1.5em auto 1.5em auto;
+  text-align:center;
+}
+
+.navigation-bar-link{
+  display:inline;
+  margin:.5em;
+  text-shadow: 2px 2px 4px gray;
+}
+
+.navigation-bar-link:hover{
+  text-shadow: 2px 2px 10px #000000;
+}
+
+.back-btn {
+  float:left;
+  cursor:pointer;
+  margin-top: -2.5em;
+}
+
 .project-container {
   display: flex;
   overflow: scroll;
@@ -9,13 +30,40 @@
   align-items: center;
 }
 
-.work-container {
-  width: 100%;
-  margin: 0 1.6em;
+.services-container {
+  border:1px solid gray;
+  width: 16em;
+  height:12em;
+  margin: .5em;
+  box-shadow: 6px 8px 10px grey;
+  text-align: center;
 }
 
-.work-image-container {
-  margin: 1em;
+.services-container-sm {
+  border:1px solid gray;
+  width: 12em;
+  height:12em;
+  margin: .5em;
+  box-shadow: 6px 8px 10px grey;
+  text-align: center;
+}
+
+.portfolio-container {
+  width: 22em;
+  height:14em;
+  margin: 1em .5em;
+  box-shadow: 0px 10px 22px 5px lightgrey;
+  text-align: center;
+  cursor: pointer;
+}
+
+.portfolio-container:hover{
+  box-shadow: 0px 10px 22px 15px grey;
+}
+
+.work-container {
+  width: 80%;
+  margin: auto;
 }
 
 .work-intro {
@@ -24,11 +72,30 @@
 }
 
 .work-description1{
-  height: 250px;
-  margin: auto auto 2em auto;
+  /*height: 250px;*/
 }
 
 .work-description2{
   height: 200px;
-  margin: 2em auto 2em auto;
+}
+
+.work-description3{
+  display:flex;
+  justify-content:space-around;
+  font-size:16px;
+}
+
+/*Contact Page*/
+.contact-link{
+  font-weight:bold;
+  border-bottom: 1px solid gray;
+}
+.contact-link:hover{
+  color:blue
+}
+
+.team-title{
+  margin:auto;
+  writing-mode:vertical-lr;
+  text-orientation:upright;
 }

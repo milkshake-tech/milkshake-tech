@@ -72,6 +72,7 @@
 
 	body {
 		background: #1b1f22;
+		/*background: #f5f1f2;*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
@@ -161,6 +162,7 @@
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -175,7 +177,7 @@
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			margin: 0 auto 2rem auto;
 		}
 
 	h1 {
@@ -817,6 +819,7 @@
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/*background-image: url("../../images/milkshake-team.png");*/
 			background-color: rgb(255,177,177);
+			/*background-color: #f5f1f2;*/
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
