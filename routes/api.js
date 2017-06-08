@@ -49,7 +49,7 @@ router.post('/:resource', (req, res) => {
 		},
 		function(inquiryPkg, done){
 			let helper = require('sendgrid').mail;
-			let fromEmail = new helper.Email('katrina@milkshake.tech')
+			let fromEmail = new helper.Email('karodriguez8@gmail.com')
 			let toEmail = new helper.Email('katrina@milkshake.tech')
 			let subject = 'Milkshake | New Inquiry'
 			let content = new helper.Content('text/plain', 'New message from '+inquiryPkg.name+", "+inquiryPkg.email+'. Message: '+inquiryPkg.message)
